@@ -41,4 +41,5 @@ int main(int argc, char** argv) {
   vector<string> args;
   for (auto i {0}; i < argc; i++) args.push_back(argv[i]); // Store arguments
   for (auto i:args) cout << i << " "; cout << endl; // View arguments passed-in
+  return 0;
 }
