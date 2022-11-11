@@ -30,3 +30,15 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  */
+
+// Sort in alphabetic order
+#include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std;
+int main(int argc, char** argv) {
+  vector<string> args;
+  for (auto i {0}; i < argc; i++) args.push_back(argv[i]); // Store arguments
+  for (auto i:args) cout << i << " "; cout << endl; // View arguments passed-in
+}
