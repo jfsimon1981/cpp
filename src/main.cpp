@@ -31,7 +31,7 @@
  * SUCH DAMAGE.
  */
 
-// Sort in alphabetic order
+// Sorted in alphabetic order
 #include <iostream>
 #include <string>
 #include <vector>
