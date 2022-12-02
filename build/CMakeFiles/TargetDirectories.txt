@@ -1,3 +1,0 @@
-/home/jeanfrancois/git/cpp/build/CMakeFiles/rebuild_cache.dir
-/home/jeanfrancois/git/cpp/build/CMakeFiles/edit_cache.dir
-/home/jeanfrancois/git/cpp/build/CMakeFiles/out.dir
