@@ -1,2 +1,3 @@
 # cpp
-General purpose utilities
+
+C/C++ General purpose utilities
