@@ -35,6 +35,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include "event.h"
+#include "time.h"
 
 using namespace std;
 int main(int argc, char** argv) {
