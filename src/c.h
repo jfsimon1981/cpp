@@ -1,3 +1,9 @@
+#include <map>
 #include <string>
 #include <vector>
-class Cpp {};
+class Cpp {
+
+public:
+  Cpp() {}
+  ~Cpp() {}
+};
