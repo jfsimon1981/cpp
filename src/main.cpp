@@ -40,8 +40,16 @@
 
 using namespace std;
 int main(int argc, char** argv) {
+  // Build args argument list
   vector<string> args;
   for (auto i {0}; i < argc; i++) args.push_back(argv[i]); // Store arguments
   for (auto i:args) cout << i << " "; cout << endl; // View arguments passed-in
+  // Client application program
+  Timer tm1(1s);
+  while (!tm1.is_elapsed()) {
+    printf("%f\r", tm1.get_ms().count());
+    cout << flush;
+};
+  //
   return 0;
 }
